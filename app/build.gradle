@@ -23,4 +23,7 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'org.mp4parser:isoparser:1.9.27'
+    implementation 'org.mp4parser:muxer:1.9.27'
+    implementation 'org.mp4parser:streaming:1.9.27'
 }
