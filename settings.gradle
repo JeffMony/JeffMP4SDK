@@ -1,2 +1,3 @@
+include ':mp4parser'
 include ':app'
 rootProject.name = "JeffMP4SDK"

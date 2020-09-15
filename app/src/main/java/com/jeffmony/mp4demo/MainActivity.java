@@ -2,6 +2,7 @@ package com.jeffmony.mp4demo;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -25,8 +26,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
     @Override
     public void onClick(View v) {
+        Intent intent = new Intent();
         if (v == mPrintMp4View) {
-
+            intent.setClass(this, PrintStructureActivity.class);
+            startActivity(intent);
         }
     }
 }
